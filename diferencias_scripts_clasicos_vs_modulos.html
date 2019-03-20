@@ -1,0 +1,10 @@
+<script src="classic.js"></script>
+<script src="classic.js"></script>
+<!-- classic.js se evalua multiples veces. -->
+
+<script type="module" src="module.mjs"></script>
+<script type="module" src="module.mjs"></script>
+<script type="module">
+    import './module.mjs';
+</script>
+<!-- module.mjs se evalua una sola vez. -->
